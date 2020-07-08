@@ -1,6 +1,15 @@
 # 2020.07.08
 ## diary
-1.
+1. C++中int转为string转为stringstream转为int
+``` 
+Input: int N;
+string num = to_string(N);
+stringstream s(num);
+int ret = 0;
+s>>ret;
+Output: int ret;
+```
+
 ## practice
 ### tag: greedy medium
 ### 738. Monotone Increasing Digits
