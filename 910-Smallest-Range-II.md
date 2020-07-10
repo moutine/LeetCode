@@ -6,7 +6,7 @@
 ### 910. Smallest Range II
 1. 题意：一串数，每个数可以加或者减K一次，求改变后“最大值和最小值差值最小”的数组
 2. 思路：
-![910图示](https://github.com/moutine/LeetCode/blob/master/images/910.jpg)
+![910图示](https://pic.leetcode-cn.com/79a2c51caabde6667f1ff5442ae19b861b4aaa04fccc627433ef04ced70214e6-910.jpg)
 ```
 就是求
 min(max(b,d) - min(a,c))
