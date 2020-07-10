@@ -9,7 +9,8 @@
 ![910图示](https://github.com/moutine/LeetCode/blob/master/images/910.jpg)
 ```
 就是求
-(max(b,d) - min(a,c))最小时
-的情况
+min(max(b,d) - min(a,c))
+或者
+非‘Z’型的特殊情况
 ```
 3. 难点： 画画图，一开始可能会走弯路，总结下就可以拨开迷雾看到本质
